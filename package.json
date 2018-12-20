@@ -1,0 +1,41 @@
+{
+  "name": "nuxt-spa-boilerplate",
+  "version": "1.0.0",
+  "description": "Nuxt.js Single Page Application boilerplate",
+  "author": "Damoon Azarpazhooh",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "latest",
+    "@nuxtjs/axios": "latest",
+    "@nuxtjs/moment": "latest",
+    "bootstrap-vue": "latest",
+    "lodash.assign": "latest",
+    "lodash.merge": "latest",
+    "nuxt": "latest",
+    "nuxt-i18n": "latest",
+    "vee-validate": "latest",
+    "velocity-animate": "latest",
+    "vue-moment": "latest",
+    "vue-notification": "latest"
+  },
+  "devDependencies": {
+    "babel-eslint": "latest",
+    "eslint": "latest",
+    "eslint-friendly-formatter": "latest",
+    "eslint-loader": "latest",
+    "eslint-plugin-vue": "latest",
+    "json-server": "latest",
+    "jsonwebtoken": "latest",
+    "node-sass": "latest",
+    "postcss-preset-env": "latest",
+    "sass-loader": "latest"
+  }
+}
